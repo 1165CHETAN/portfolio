@@ -19,7 +19,6 @@ const fadeInAnimationVariants = {
     },
   }),
 };
-
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
 
@@ -27,9 +26,9 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-28 max-w-[53rem] scroll-mt-28  sm:mb-40"
     >
-      <SectionHeading>My skills</SectionHeading>
+      <SectionHeading>My skills, Certificates</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
@@ -47,6 +46,24 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
+      <div className="mt-6 border p-6 flex flex-col sm:flex-row items-center justify-between rounded-lg bg-rose-500">
+  <div className="flex-1 mb-4 sm:mb-0">
+    <h2 className="text-2xl font-semibold mb-2 text-skyblue">
+      Certifications 3
+    </h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+      dignissimos possimus temporibus ipsa nam reiciendis deleniti
+      laudantium, velit fugiat fuga!
+    </p>
+  </div>
+  <img
+    src="/mongo.png"
+    alt="Certification 3"
+    className="w-49 h-36 object-cover rounded sm:ml-6"
+  />
+</div>
+
     </section>
   );
 }

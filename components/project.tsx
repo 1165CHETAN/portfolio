@@ -47,10 +47,17 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <button className="bg-blue-500 flex justify-center items-center tracking-wider mt-4 gap-2 sm:mt-auto hover:bg-blue-700 rounded-full text-white py-1 px-2" style={{ filter: 'brightness(1.2) contrast(1.2)' }}>
-  The way I executed it!
-</button>
-
+          <div className="mt-4 flex space-x-2">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded-full text-sm">
+    Link
+  </button>
+  <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 rounded-full text-sm">
+    Article
+  </button>
+  <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded-full text-sm">
+    How i did it?
+  </button>
+</div>
         </div>
 
         <Image

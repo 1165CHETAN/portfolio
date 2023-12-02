@@ -82,6 +82,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
+  
 ] as const;
 
 export const skillsData = [
@@ -92,16 +93,5 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  
 ] as const;

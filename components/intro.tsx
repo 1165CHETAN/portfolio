@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpYyUyMGZvciUyMHNldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D&w=800"
-              alt="Ricardo portrait"
+              alt="Chetan portrait"
               width="192"
               height="192"
               quality="95"
