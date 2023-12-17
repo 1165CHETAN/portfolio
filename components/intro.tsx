@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpYyUyMGZvciUyMHNldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D&w=800"
+              src="https://images.unsplash.com/photo-1594922009922-d1665ed9ce44?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhhcHB5JTIwZG9nfGVufDB8fDB8fHww"
               alt="Chetan portrait"
               width="192"
               height="192"

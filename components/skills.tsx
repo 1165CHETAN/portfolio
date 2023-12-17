@@ -46,16 +46,22 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
-      <div className="mt-6 border p-6 flex flex-col sm:flex-row items-center justify-between rounded-lg bg-rose-500">
+      <div className="mt-5  p-6 flex flex-col sm:flex-row items-center justify-between text-white rounded bg-sky-500">
   <div className="flex-1 mb-4 sm:mb-0">
     <h2 className="text-2xl font-semibold mb-2 text-skyblue">
       Certifications 3
     </h2>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
-      dignissimos possimus temporibus ipsa nam reiciendis deleniti
-      laudantium, velit fugiat fuga!
-    </p>
+    <p className="mb-4">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+    dignissimos possimus temporibus ipsa nam reiciendis deleniti
+  </p>
+  <a
+    className="bg-pink-500 p-2 hover:bg-pink-600 text-white  font-bold py-1 px-2 rounded text-sm"
+    href="https://linkedin.com"
+    target="_blank"
+  >
+    How I did it?
+  </a>
   </div>
   <img
     src="/mongo.png"
@@ -63,6 +69,31 @@ export default function Skills() {
     className="w-49 h-36 object-cover rounded sm:ml-6"
   />
 </div>
+<div className="mt-5  p-6 flex flex-col sm:flex-row items-center justify-between text-white rounded bg-purple-950">
+  <div className="flex-1 mb-4 sm:mb-0">
+    <h2 className="text-2xl font-semibold mb-2 text-skyblue">
+      Certifications 3
+    </h2>
+    <p className="mb-4">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+    dignissimos possimus temporibus ipsa nam reiciendis deleniti
+  </p>
+  <a
+    className="bg-pink-500 p-2 hover:bg-pink-600 text-white font-bold py-1 px-2 rounded text-sm"
+    href="https://linkedin.com"
+    target="_blank"
+  >
+    How I did it?
+  </a>
+  </div>
+  <img
+    src="/mongo.png"
+    alt="Certification 3"
+    className="w-49 h-36 object-cover rounded sm:ml-6"
+  />
+</div>
+
+
 
     </section>
   );
