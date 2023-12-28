@@ -48,19 +48,18 @@ export default function Skills() {
       </ul>
       <div className="mt-5  p-6 flex flex-col sm:flex-row items-center justify-between text-white rounded bg-sky-500">
   <div className="flex-1 mb-4 sm:mb-0">
-    <h2 className="text-2xl font-semibold mb-2 text-skyblue">
-      Certifications 3
+    <h2 className="text-xl font-semibold mb-2 text-skyblue">
+    MongoDB Node.js Developer Path
     </h2>
     <p className="mb-4">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
-    dignissimos possimus temporibus ipsa nam reiciendis deleniti
+    Skills : MongoDB Atlas | NoSQL | Node.js 
   </p>
   <a
-    className="bg-pink-500 p-2 hover:bg-pink-600 text-white  font-bold py-1 px-2 rounded text-sm"
-    href="https://linkedin.com"
+    className="bg-violet-500 p-2 hover:bg-violet-600 text-white  font-bold py-1 px-2 rounded text-sm"
+    href="https://learn.mongodb.com/c/N7IJI9aiThyGif8Vm-FfKw"
     target="_blank"
   >
-    How I did it?
+    Verify @ MongoDB
   </a>
   </div>
   <img
@@ -69,25 +68,24 @@ export default function Skills() {
     className="w-49 h-36 object-cover rounded sm:ml-6"
   />
 </div>
-<div className="mt-5  p-6 flex flex-col sm:flex-row items-center justify-between text-white rounded bg-purple-950">
+<div className="mt-5  p-6 flex flex-col sm:flex-row items-center justify-between text-white rounded bg-violet-700">
   <div className="flex-1 mb-4 sm:mb-0">
-    <h2 className="text-2xl font-semibold mb-2 text-skyblue">
-      Certifications 3
+    <h2 className="text-xl font-semibold mb-2 text-skyblue">
+   Bootcamp | Introduction to Python
     </h2>
     <p className="mb-4">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
-    dignissimos possimus temporibus ipsa nam reiciendis deleniti
+   Skills : Python | Data Structure | Algorithms
   </p>
   <a
-    className="bg-pink-500 p-2 hover:bg-pink-600 text-white font-bold py-1 px-2 rounded text-sm"
-    href="https://linkedin.com"
+    className="bg-blue-500 p-2 hover:bg-violet-600 text-white font-bold py-1 px-2 rounded text-sm"
+    href="https://certificate.codingninjas.com/view/64aaa9bd65b88738"
     target="_blank"
   >
-    How I did it?
+    Verify @ Coding Ninja
   </a>
   </div>
   <img
-    src="/mongo.png"
+    src="/cn2.png"
     alt="Certification 3"
     className="w-49 h-36 object-cover rounded sm:ml-6"
   />

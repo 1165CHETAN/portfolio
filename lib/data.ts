@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "10th (SSC), Maharahstra State Board",
+    title: "10th (SSC), Maharashtra State Board",
     location: "Percentage: 95.4%",
     description:
     " Maharshi Prashala Yashwantnagar, Solapur",
@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2017",
   },
   {
-    title: "12th (HSC), Maharahstra State Board",
+    title: "12th (HSC), Maharashtra State Board",
     location: "Percentage: 72%",
     description:
       "A.D. Joshi Junior College, Solapur",
@@ -52,7 +52,7 @@ export const experiencesData = [
   },
   {
     title: "B.Tech (Electronics & Telecommunication Engg)",
-    location: "CGPA: 9.1",
+    location: "CGPA: 8.96",
     description:
       "Rajarshri Shahu College of Engineering, Pune",
     icon: React.createElement(LuGraduationCap),
@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "",
     description:
-      "Driven full-stack developer with a focus on real-world impact through coding. Through a portfolio of projects that tackle tangible challenges and engage users authentically, I have consistently upskilled myself to navigate the ever-evolving landscape of development. I'm open to full-time opportunities.",
+      "Started learning new tech stack that solving real world problems. I have consistently upskilled myself to navigate the ever-evolving landscape of development.  I'm open to full-time opportunities.",
     icon: React.createElement(LuSettings2),
     date: "2023 - present",
   },
@@ -70,43 +70,51 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "WeaveHub",
-    description:
-      " - I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["Clerk", "Next.js", "MongoDB", "Tailwind", "Vercel"],
-    imageUrl: corpcommentImg,
-  },
-  {
     title: "TechBytes",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Developed web blog application using Astro, reducing loading times through static site generation.",
     tags: ["Astro", "MarkDown", "GitHub", "Tailwind", "Vercel"],
+    imageUrl: corpcommentImg,
+    viewLink: "https://techbytes-chetan.netlify.app/",
+    videoLink: "https://www.canva.com/design/DAF22qNeMOU/40FU4w3RRtXRrCfMzgiHwA/watch?utm_content=DAF22qNeMOU&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    githubLink: "https://github.com/1165CHETAN/TechBytes",
+  },
+  {
+    title: "WeaveHub",
+    description:
+      "A web chat application that has real-time users, which connects seamlessly!!",
+    tags: ["Clerk", "Next.js", "MongoDB", "Tailwind", "Vercel"],
     imageUrl: rmtdevImg,
+    viewLink: "https://weavehub-chetan.vercel.app/",
+    videoLink: "https://www.canva.com/design/DAFzeKzgcmM/9qZYKqJ71iccpnmVwJ7fZQ/watch?utm_content=DAFzeKzgcmM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    githubLink: "https://github.com/1165CHETAN/THREADS-app",
   },
   {
-    title: "Quickgist",
+    title: "SecureConnect",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["RapidAPI", "React", "Redux kit", "Tailwind", "Vercel"],
+      "Developed SecureConnect, an authentication platform with JWT and HTTP-only cookie.",
+    tags: ["Postman", "Bootstrap", "Jwt", "Mongodb", "Vite"],
     imageUrl: wordanalyticsImg,
+    viewLink: "https://www.canva.com/design/DAF34_IZKys/_zmjEEDJ7HDQ2Pfc1Q74EQ/watch?utm_content=DAF34_IZKys&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    videoLink: "https://www.canva.com/design/DAF34_IZKys/_zmjEEDJ7HDQ2Pfc1Q74EQ/watch?utm_content=DAF34_IZKys&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    githubLink: "https://github.com/1165CHETAN/SecureConnect-",
   },
-  {
-    title: "Authentication",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
-  
 ] as const;
+
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Python",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
+  "MongoDB",
+  "Vite",
+  "Express.js",
+  "Bootstrap",
+  "Tailwind CSS",
   
 ] as const;

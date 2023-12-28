@@ -34,22 +34,21 @@ export default function Skills() {
       <div className=" text-white rounded p-4 m-1 flex-1 mx-2 sm:mx-4 flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, indigo 75%, Dodgerblue 25%)' }}>
           <div className="mb-4">
             <h5 className="text-lg font-semibold mb-2">
-              TopicForge
+              Quickgist
             </h5>
             <p className="text-sm">
-              PHP | MongoDB | Laravel
+              Rapid API | Vite | Tailwind CSS | Netlify
             </p>
           </div>
        
           <a
             className="bg-indigo-500 mt-3 p-1 hover:bg-indigo-700 text-white font-bold rounded text-center text-sm"
-            href="https://linkedin.com"
+            href="https://quickgist-chetan.netlify.app/"
             target="_blank"
           >
-            GitHub
+            View
           </a>
       </div>
-
 
       {/* first box of project */}
       <div className=" text-white rounded p-4 m-1 flex-1 mx-2 sm:mx-4 flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, Dodgerblue 75%, indigo 25%)' }}>
@@ -58,33 +57,34 @@ export default function Skills() {
               TopicForge
             </h5>
             <p className="text-sm">
-              PHP | MongoDB | Laravel
+             CRUD | Next.js | MongoDB | Netlify
             </p>
           </div>
-         
+       
           <a
             className="bg-indigo-500 mt-3 p-1 hover:bg-indigo-700 text-white font-bold rounded text-center text-sm"
-            href="https://linkedin.com"
+            href="https://chetan-crud-app.netlify.app/"
             target="_blank"
           >
-            GitHub
+            View
           </a>
       </div>
+
 
       {/* first box of project */}
       <div className=" text-white rounded p-4 m-1 flex-1 mx-2 sm:mx-4 flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, indigo 75%, Dodgerblue 25%)' }}>
           <div className="mb-4">
             <h5 className="text-lg font-semibold mb-2">
-              TopicForge
+              My Portfoio
             </h5>
             <p className="text-sm">
-              PHP | MongoDB | Laravel
+              
             </p>
           </div>
-       
+         
           <a
-            className="bg-indigo-500 mt-3 p-1 hover:bg-indigo-700 text-white font-bold rounded text-center text-sm"
-            href="https://linkedin.com"
+            className="bg-indigo-500 mt-3 p-1 hover:bg-indigo-600 text-white font-bold rounded text-center text-sm"
+            href="https://github.com/1165CHETAN/portfolio"
             target="_blank"
           >
             GitHub
@@ -95,31 +95,44 @@ export default function Skills() {
       <div className=" text-white rounded p-4 m-1 flex-1 mx-2 sm:mx-4 flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, Dodgerblue 75%, indigo 25%)' }}>
           <div className="mb-4">
             <h5 className="text-lg font-semibold mb-2">
-              TopicForge
+              Google Cloud
             </h5>
             <p className="text-sm">
-              PHP | MongoDB | Laravel
+              Earned basic skill badges
             </p>
           </div>
-          
+       
           <a
-            className="bg-indigo-500 mt-3 p-1 hover:bg-indigo-700 text-white font-bold rounded text-center text-sm"
-            href="https://linkedin.com"
+            className="bg-indigo-500 mt-3 p-1 hover:bg-indigo-600 text-white font-bold rounded text-center text-sm"
+            href="https://g.dev/chetanchavan"
             target="_blank"
           >
-            GitHub
+           View Profile
           </a>
       </div>
+
+      
 
 
     {/* My acheivemnets */}
 
       </div>
-      <div className="mt-4 rounded p-4 flex flex-col sm:flex-row items-center justify-between text-white bg-gray-500">
+      <div className="mt-3 rounded p-4 flex flex-col sm:flex-row items-center text-white justify-between bg-gray-500">
   <div className="flex-1 mb-4 sm:mb-0">
-  <h6 className="text-md font-semibold mb-2 text-skyblue">
-      Cracked KPIT NOVA Hackathon 2022
+    <h6 className="text-md font-semibold mb-2 text-skyblue">
+      
+      Cracked Kpit Nova Hiring Hackathon 2022 | KPIT
+
+      <a
+    className="bg-yellow-500 p-2 ml-4 hover:bg-yellow-600 text-white font-bold py-1 px-2 rounded text-sm"
+    href="https://drive.google.com/file/d/1N9xoQMXzOPaUp_0xcwmo2CGpHJi4srg0/view?usp=sharing"
+    target="_blank"
+  >
+    View
+  </a>
     </h6>
+   
+  
   </div>
   
 </div>
@@ -127,16 +140,18 @@ export default function Skills() {
 <div className="mt-3 rounded p-4 flex flex-col sm:flex-row items-center text-white justify-between bg-gray-700">
   <div className="flex-1 mb-4 sm:mb-0">
     <h6 className="text-md font-semibold mb-2 text-skyblue">
-      Qualified GATE 2022 in Intrumentation Branch
+      
+      Streak Mestro at Coding Ninja | 400+ problems solved    
+      
+      
       <a
     className="bg-pink-500 p-2 ml-4 hover:bg-pink-600 text-white font-bold py-1 px-2 rounded text-sm"
-    href="https://linkedin.com"
+    href="https://certificate.codingninjas.com/certificate/d82ab406d47a07da/YearlyStats"
     target="_blank"
   >
-    View
+    Verify
   </a>
-    </h6>
-   
+  </h6>
   
   </div>
   
